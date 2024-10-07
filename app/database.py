@@ -5,7 +5,7 @@ from sqlalchemy.ext.declarative import (
 from sqlalchemy.orm import sessionmaker  # 데이터베이스 세션 생성을 위한 세션메이커
 
 # 데이터베이스 연결 URL 설정
-SQLALCHEMY_DATABASE_URL = "postgresql://postgres:1872@183.106.31.33:5432/test1"
+SQLALCHEMY_DATABASE_URL = "postgresql://root:1872@svc.sel5.cloudtype.app:32187/root"
 
 # 데이터베이스 엔진 생성
 # SQLAlchemy 엔진은 데이터베이스와의 모든 통신을 처리
