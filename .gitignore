@@ -1,0 +1,58 @@
+# 바이트 컴파일/최적화/DLL 파일
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C 확장자
+*.so
+
+# 배포 및 패키징 관련
+build/
+dist/
+*.egg-info/
+*.egg
+
+# 설치 로그
+pip-log.txt
+pip-delete-this-directory.txt
+
+# 유닛 테스트/코드 커버리지 보고서
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# 번역 파일
+*.mo
+*.pot
+
+# 환경 설정 파일
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Python 가상 환경
+.python-version
+
+# Jupyter 노트북
+.ipynb_checkpoints
+
+# mypy 타입 체커
+.mypy_cache/
+
+# 프로젝트 설정 파일
+.flake8
+setup.cfg
+tox.ini
